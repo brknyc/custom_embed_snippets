@@ -1,0 +1,115 @@
+<link rel='stylesheet' href='https://use.typekit.net/wpi2bhd.css'>
+
+
+<style>
+	.better__header {
+		width: 100vw;
+		height: 100vh;
+		position: relative;
+		left: 50%;
+		right: 50%;
+		margin-left: -50vw;
+		margin-right: -50vw;
+		overflow: hidden;
+	}
+	.better__header-titles {
+		font-family: cooper-black-std, serif;
+		font-weight: 400;
+		font-style: normal;
+		text-align: center;
+		letter-spacing: -1px;
+		position: absolute;
+		z-index: 5;
+		bottom: 40px;
+		width: 100%;
+		color: #ff5700;
+padding: 0 20px;
+	}
+	.better__header-titles h1 {
+		font-size: 5vw;
+		line-height: 98%;
+		margin-bottom: 0;
+	}
+	.better__header-titles p {
+		margin-top: 0;
+		font-size: 3vw;
+		line-height: 98%;
+	}
+.vid__container video {
+	z-index: 1;
+	display: block;
+	min-height: 100%;
+	min-width: 100%;
+	object-position: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.bfn-logo {
+	position: absolute;
+width: 50%;
+  	top: 20px;
+  	left: 50%;
+  	margin-left: -8rem;
+	z-index: 3;
+}
+.bfn-logo img {
+  width: 16rem;
+  margin: auto;
+}
+.better__header-credit {
+	position: absolute;
+	font-family: Pensum, serif;
+	font-size: .875rem;
+	bottom: 15px;
+	left: 15px;
+	color: #fff;
+	font-style: italic;
+	z-index: 4;
+}
+</style>
+<header class='better__header'>
+	<div class='bfn-logo'><a href='/'><img alt='BuzzFeed News Logo' src='https://documents.buzzfeednews.com/_NewsDesign/BFNlogo/BFN_logo_2C-W.png'></a></div>
+	<div class='better__header-titles'><h1>How Bon Appétit Accidentally Made YouTube&rsquo;s Most Beloved Stars</h1><p>Claire, Brad, and the gang have created not only a successful series but a devoted fandom.</p></div>
+	<div class='better__header-credit'>Caitlin Ochs for BuzzFeed News</div>
+<div class='vid__container'><video autoplay muted loop class='responsive-clip__video' playsinline='true'> <source src='https://documents.buzzfeednews.com/_NewsDesign/breaking/2020_0207_BA/ba_opener.mp4' type='video/mp4'></video></div>
+	
+</header>
+<script>
+  {
+    function hideNavElements() {
+    document.querySelector('.newsblock-header').style = 'display: none;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: none;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: none;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-header__title').style = 'display: none;';
+    document.querySelector('.news-article-header__dek').style = 'display: none;';
+  }
+    
+  function attachCustomHeader() {
+    const pageContentEl = document.querySelector('.page-content');
+    const mainGridEl = pageContentEl.querySelector('.grid-layout-wrapper');
+    const graphics = document.querySelector('.better__header');
+    const headerContainer = document.createElement('div');
+    pageContentEl.insertBefore(graphics, mainGridEl);
+    document.querySelector('.buzz-feature-image').style = 'display: none;';
+  }
+    function hideCustomEmbedContent() {
+      document.querySelector('.better__header').style = 'display: none;'; 
+    }
+    hideNavElements();
+    if (window.innerWidth > 1000) {
+      attachCustomHeader();
+    } else {
+      hideCustomEmbedContent();
+      document.querySelector('.newsblock-header').style = 'display: block;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: block;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: block;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+      document.querySelector('.news-article-header__title').style = 'display: block;';
+      document.querySelector('.news-article-header__dek').style = 'display: block;';
+      document.querySelector('.sticky-header.sticky').style = 'display: block;';
+    }
+  }
+</script>

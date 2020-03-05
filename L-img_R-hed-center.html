@@ -1,0 +1,176 @@
+<link rel="stylesheet" href="https://use.typekit.net/ljm6rvb.css">
+
+<style>
+.better__header {
+	width: 100vw;
+	height: 1100px;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	margin-top: 0;
+	top: 0;
+	clear: both;
+	display: block;
+	
+}
+.left__bg {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	box-sizing: border-box;
+}
+.left__bg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.right__bg {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	left: 50%;
+	top: 0px;
+	background: #FF89B4;
+	box-sizing: border-box;
+	overflow: visible;
+}
+.right__bg__wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.bfn__logo {
+	position: relative;
+	width: 320px;
+	height: 39px;
+	margin: auto;
+	top: 20px;
+}
+.bfn__logo img {
+	width: 100%;
+}
+.bfn__hed {
+	position: absolute;
+	width: 100%;
+	padding: 15% 20px;
+	height: 331px;
+	left: 0px;
+	top: 10%;
+}
+.bfn__hed p {
+	font-family: bodoni-fb-condensed, serif;
+font-weight: 700;
+font-style: normal;
+	font-size: 75px;
+	line-height: 73px;
+	/* or 80% */
+	text-align: center;
+	color: #000000;
+}
+.bfn__dek {
+	width: 100%;
+	left: 0px;
+	padding: 20px 20px;
+	font-family: Basier, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	/* or 125% */
+	color: #FFFFFF;
+	text-align: center;
+}
+.hed__first {
+	font-size: 600px;
+	line-height: 500px;
+}
+.subbuzz__description {
+    color: #B56586 !important;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	.left__bg {
+		width: 100%;
+	}
+	.right__bg {
+		width: 100%;
+		left: 0;
+		background: none;
+	}
+	.bfn__logo {
+		width: 240px;
+		top: 20px;
+	}
+	.bfn__hed {
+		top: 50%;
+	}
+	.bfn__hed p {
+		font-size: 60px;
+		line-height: 50px;
+		color: #fff;
+		text-shadow: 0 0 15px #000;
+	}
+	.bfn__dek {
+		clear: both;
+		font-size: 16px
+		line-height: 16px;
+		text-shadow: 0 0 15px #000;
+	}
+	.hed__first {
+		font-size: 175px;
+		line-height: 73px;
+	}
+}
+</style>
+<header class="better__header">
+	<div class="left__bg"><img src="https://documents.buzzfeednews.com/_NewsDesign/culture/2020_0110_gigolos/20191216_Buzzfeed_Gigalo_0373-crop.jpg"></div>
+	<div class="right__bg">
+		<div class="right__bg__wrapper"><div class="bfn__logo"><img src="https://documents.buzzfeed.com/_NewsDesign/BFNlogo/BFN_logo-M1.png"></div>
+	<div class="bfn__hed"><p><span class="hed__first">A</span><br>Better Boyfriend<br>Experience</p><div class="bfn__dek">A small but growing number of men doing sex work are catering to women clients by taking consent and gender equality seriously — and offering emotional labor as part of the deal.</div></div>
+	
+</div>
+</header>
+<script>
+  {
+    function hideNavElements() {
+    document.querySelector('.newsblock-header').style = 'display: none;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: none;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: none;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+    document.querySelector('.news-article-header__title').style = 'display: none;';
+    document.querySelector('.news-article-header__dek').style = 'display: none;';
+  }
+    
+  function attachCustomHeader() {
+    const pageContentEl = document.querySelector('.page-content');
+    const mainGridEl = pageContentEl.querySelector('.grid-layout-wrapper');
+    const graphics = document.querySelector('.better__header');
+    const headerContainer = document.createElement('div');
+    pageContentEl.insertBefore(graphics, mainGridEl);
+    document.querySelector('.buzz-feature-image').style = 'display: none;';
+  }
+    function hideCustomEmbedContent() {
+      document.querySelector('.better__header').style = 'display: none;'; 
+    }
+    hideNavElements();
+    if (window.innerWidth > 200) {
+      attachCustomHeader();
+    } else {
+      hideCustomEmbedContent();
+      document.querySelector('.newsblock-header').style = 'display: block;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: block;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: block;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+      document.querySelector('.news-article-header__title').style = 'display: block;';
+      document.querySelector('.news-article-header__dek').style = 'display: block;';
+      document.querySelector('.sticky-header.sticky').style = 'display: block;';
+    }
+  }
+</script>
