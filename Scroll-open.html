@@ -1,0 +1,133 @@
+<style>
+        
+.better__header {
+  width: 100vw;
+  height: 500vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 0;
+  top: 0;
+  clear: both;
+  display: block;
+}
+.better__header-image {
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: -1;
+}       
+.better__header-image img {
+  object-position: center;
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  object-fit: cover;
+  max-height: 100vh;
+}
+.better-header__titles {
+  width: 50%;
+  left: 0;
+  top: 0;
+  color: #fff;
+  padding: 0 50px;
+  font-family: Pensum, serif;
+  font-weight: 300;
+  text-align: left;
+  text-shadow: 0 0 15px #000;
+  position: absolute;
+  box-sizing: border-box;
+}
+.better-header__headline {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+    margin-bottom: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.better-header__final {
+  font-size: 5.5rem;
+  line-height: 5.3rem;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.bfn-logo {
+  width: 100%;
+  left: 50%;
+  margin-top: 20px;
+  margin-left: -6rem; 
+  z-index: 3;
+  position: absolute;
+}
+.bfn-logo img {
+  width: 12rem;
+}
+@media only screen and (max-device-width: 600px) {
+  .better-header__titles {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .better-header__headline {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  .better-header__final {
+    font-size: 3.4rem;
+    line-height: 3.4rem;
+  }
+}
+</style>
+<header class="better__header">
+    <div class="bfn-logo"><a href="/"><img alt="BuzzFeed News Logo" src="https://documents.buzzfeed.com/_NewsDesign/BFNlogo/BFN_logo_2C.png"></a></div>
+    <div class="better-header__titles">
+      <div class="better-header__headline"></div>
+      <div class="better-header__headline">A City Investigation Showed That New Orleans Had Botched Its Water Testing For Lead For Years.</div>
+      <div class="better-header__headline">Then It Was Buried.</div>
+      <div class="better-header__headline">Secret documents obtained by BuzzFeed News show that New Orleans has knowingly botched its testing for lead — and covered up its failures for years. </div>
+      <div class="better-header__final">Poison in the Pipes</div>
+    </div>
+      <div class="better__header-image"><img src="https://documents.buzzfeednews.com/_NewsDesign/2019_1031_NOLA/Widmer_LEAD-4.jpg"></div>
+</header>
+<script>
+  {
+    function hideNavElements() {
+    document.querySelector('.newsblock-header').style = 'display: none;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: none;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: none;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+    document.querySelector('.news-article-header__title').style = 'display: none;';
+    document.querySelector('.news-article-header__dek').style = 'display: none;';
+  }
+    
+  function attachCustomHeader() {
+    const pageContentEl = document.querySelector('.page-content');
+    const mainGridEl = pageContentEl.querySelector('.grid-layout-wrapper');
+    const graphics = document.querySelector('.better__header');
+    const headerContainer = document.createElement('div');
+    pageContentEl.insertBefore(graphics, mainGridEl);
+    document.querySelector('.buzz-feature-image').style = 'display: none;';
+  }
+    function hideCustomEmbedContent() {
+      document.querySelector('.better__header').style = 'display: none;'; 
+    }
+    hideNavElements();
+    if (window.innerWidth > 200) {
+      attachCustomHeader();
+    } else {
+      hideCustomEmbedContent();
+      document.querySelector('.newsblock-header').style = 'display: block;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: block;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: block;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+      document.querySelector('.news-article-header__title').style = 'display: block;';
+      document.querySelector('.news-article-header__dek').style = 'display: block;';
+      document.querySelector('.sticky-header.sticky').style = 'display: block;';
+    }
+  }
+</script>

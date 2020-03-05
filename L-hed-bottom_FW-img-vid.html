@@ -1,0 +1,116 @@
+<style>
+        
+.better__header {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #e6cbe7;
+  clear: both;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+       
+.better-header__titles {
+  width: 50%;
+  height: 100vh;
+  color: #000;
+  padding-left: 20px;
+  z-index: 2;
+}
+.better-header__headline {
+  font-family: Basier, sans-serif;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 6.2rem;
+  letter-spacing: -7px;
+    text-align: left;
+    margin-bottom: 0;
+}
+.better-header__dek {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+    font-family: Basier, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bfn-logo {
+  width: 100%;
+  margin: 25px auto 0;
+  display: block;
+  z-index: 3;
+}
+.bfn-logo img {
+  width: 12rem;
+  margin: auto;
+}
+.better-header__spacer {
+  height: 100vh;
+}
+.vid__container video {
+min-width: 100%;
+min-height: 100%;
+position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+</style>
+<header class='better__header'>
+  <div class='bfn-logo'><a href='/'><img class='bfn-logo' alt='BuzzFeed News Logo' src='https://documents.buzzfeed.com/_NewsDesign/2018_09XX_Orphanage/BFN_logo_2C-W.png'></a></div>
+  <div class='vid__container'><video autoplay muted loop playsinline='true'> <source src='https://documents.buzzfeed.com/_NewsDesign/2019_10XX_2010s/header.mp4' type='video/mp4'></video></div>
+    <div class='better-header__spacer'></div>
+    <div class='better-header__titles'>
+      <h1 class='better-header__headline'>The 2010s Broke Our Sense Of Time</h1>
+      <p class='better-header__dek'>The rhythms of American life changed in the 2010s. How everything from TV to Trump to Instagram messed with your head just enough that time feels like it melted.</p>
+    </div>
+    <div class='subbuzz__attribution' style='width: 100%; text-align: right; display: block; margin-top: 5px; margin-bottom: 5px; margin-right: 10px; z-index: 10;'>Pablo Delcan for BuzzFeed News</div>
+</header>
+<script>
+  {
+    function hideNavElements() {
+    document.querySelector('.newsblock-header').style = 'display: none;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: none;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: none;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+    document.querySelector('.news-article-header__title').style = 'display: none;';
+    document.querySelector('.news-article-header__dek').style = 'display: none;';
+  }
+    
+  function attachCustomHeader() {
+    const pageContentEl = document.querySelector('.page-content');
+    const mainGridEl = pageContentEl.querySelector('.grid-layout-wrapper');
+    const graphics = document.querySelector('.better__header');
+    const headerContainer = document.createElement('div');
+    pageContentEl.insertBefore(graphics, mainGridEl);
+    document.querySelector('.buzz-feature-image').style = 'display: none;';
+  }
+    function hideCustomEmbedContent() {
+      document.querySelector('.better__header').style = 'display: none;'; 
+    }
+    hideNavElements();
+    if (window.innerWidth > 1000) {
+      attachCustomHeader();
+    } else {
+      hideCustomEmbedContent();
+      document.querySelector('.newsblock-header').style = 'display: block;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: block;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: block;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+      document.querySelector('.news-article-header__title').style = 'display: block;';
+      document.querySelector('.news-article-header__dek').style = 'display: block;';
+      document.querySelector('.sticky-header.sticky').style = 'display: block;';
+    }
+  }
+</script>

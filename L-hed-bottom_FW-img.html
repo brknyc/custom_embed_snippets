@@ -1,0 +1,135 @@
+<style>
+        
+.news-article-header__title {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+}
+.news-article-header__byline-wrapper-mobile .link-initial--text-black {
+  color: #000;
+}
+.flex-header {
+  display: flex;
+  flex-direction: column;
+width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  color: #000;
+  background-color: #000;
+}
+.flex-header__logo {
+  margin: 0 auto 2rem;
+  width: 12rem;
+  height: 3rem;
+  align-self: flex-start;
+}
+.flex-header__logo img {
+  display: block;
+  width: 100%;
+}
+.flex-header__inner {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.flex-header__image {
+width: 50%;
+order: 2;
+background-color: #c4ccdf;
+    background-image: url(https://documents.buzzfeed.com/_NewsDesign/2019_0615_AK/bzfd_final.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: center;
+}
+        
+.flex-header__titles {
+  width: 50%;
+height: 1100px;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  background-color: #000;
+  color: #fff;
+}
+.flex-header__headline {
+  font-family: Pensum, serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 5rem;
+  letter-spacing: -1px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.flex-header__dek {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+    font-family: Basier, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 10%;
+}
+.header__credit {
+  font-family: Pensum, serif;
+  font-size: 0.8rem;
+  text-align: right;
+  padding-right: 15px;
+  color: #666;
+  background-color: #fff;
+  padding-top: 5px;
+}
+</style>
+<header class="flex-header">
+    <div class="flex-header__inner">
+      <div class="flex-header__titles">
+      <h1 class="flex-header__headline">
+        <em>The Loophole</em>
+      </h1>
+      
+      <p class="flex-header__dek">
+        A horrific case in Alaska has highlighted a loophole in sexual assault statues nationwide. Now the survivor of the attack is sharing her story for the very first time. 
+      </p>
+    </div>
+    <div class="flex-header__image"></div>
+  </div>
+  <div class="header__credit"><em>Hokyoung Kim for BuzzFeed News</em></div>
+</header>
+<script>
+  {
+    function hideNavElements() {
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+document.querySelector('.news-article-header__title').style = 'display: none;';
+}
+    
+  function attachCustomHeader() {
+    const pageContentEl = document.querySelector('.page-content');
+    const mainGridEl = pageContentEl.querySelector('.grid-layout-wrapper');
+    const graphics = document.querySelector('.flex-header');
+    const headerContainer = document.createElement('div');
+    pageContentEl.insertBefore(graphics, mainGridEl);
+    document.querySelector('.buzz-feature-image').style = 'display: none;';
+  }
+    function hideCustomEmbedContent() {
+      document.querySelector('.flex-header').style = 'display: none;'; 
+    }
+    hideNavElements();
+    if (window.innerWidth > 1000) {
+      attachCustomHeader();
+    } else {
+      hideCustomEmbedContent();
+      document.querySelector('.newsblock-header').style = 'display: block;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: block;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: block;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+      document.querySelector('.news-article-header__title').style = 'display: block;';
+      document.querySelector('.news-article-header__dek').style = 'display: block;';
+      document.querySelector('.sticky-header.sticky').style = 'display: block;';
+    }
+  }
+</script>

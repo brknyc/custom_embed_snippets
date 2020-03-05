@@ -1,0 +1,28 @@
+<style>
+.vid__container {
+width: 100vw;
+position: relative;
+left: 50%;
+right: 50%;
+margin-left: -50vw;
+margin-right: -50vw;
+}
+.responsive-clip__video {
+display: block;
+    width: 100%;
+    height: auto;
+margin: auto;
+}
+video {
+object-fit: contain;
+object-position: center;
+}
+@media only screen and (max-device-width: 600px) {
+.responsive-clip__video {
+width: 100%;
+}
+}
+</style>
+
+<div class="vid__container"><video autoplay muted loop class="responsive-clip__video" playsinline="true"> <source src="https://documents.buzzfeed.com/_NewsDesign/2019_10XX_2010s/wave2.mp4" type="video/mp4"></video><div class="subbuzz__description"><p style="font-size: .875rem;">Activist Haven Coleman attends the Teen Vogue Summit 2018 in New York City.</p><span class="subbuzz__attribution">Cindy Ord / Getty Images</span></div></div>
+

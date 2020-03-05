@@ -1,0 +1,142 @@
+<style>
+        
+.better__header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 0;
+  top: 0;
+  clear: both;
+  display: block;
+}
+.better__header-image {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  height: 100%;
+  top: 0;
+}       
+.better__header-image img {
+  object-position: center;
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.better-header__titles {
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: #fff;
+  padding: 0 50px;
+  font-family: Basier, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: #000;
+}
+.better-header__headline {
+  font-size: 1.45vw;
+  line-height: 102%;
+  position: absolute;
+  bottom: 20px;
+  padding-right: 50px;
+}
+.better-header__headline h1 {
+  font-family: Pensum, serif;
+  font-size: 5vw;
+  line-height: 95%;
+  margin-bottom: 10px;
+}
+.bfn-logo {
+  width: 100%;
+  left: 50%;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: -6rem;
+  z-index: 3;
+  display: block;
+}
+.bfn-logo img {
+  width: 12rem;
+}
+.special__caption {
+  font-family: Pensum, serif;
+  font-size: .875rem;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  text-align: right;
+  color: #fff !important;
+  width: 50%;
+}
+@media only screen and (max-device-width: 600px) {
+  .better-header__titles {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .better-header__headline {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  .better-header__final {
+    font-size: 3.4rem;
+    line-height: 3.4rem;
+  }
+}
+</style>
+<header class="better__header">
+  
+    <div class="better-header__titles">
+      <div class="bfn-logo"><a href="/"><img alt="BuzzFeed News Logo" src="https://documents.buzzfeednews.com/_NewsDesign/BFNlogo/BFN_logo_2C-W.png"></a></div>
+      <div class="better-header__headline"><h1>She Was A Rising MAGA Star With Deep Pockets. Now She&rsquo;s Talking To The FBI.</h1><p>Rabia Kazan, a Turkish national who used to be a Trump fanatic, made a big donation to the president&rsquo;s campaign. But she&rsquo;s not a US citizen. </p></div>
+    </div>
+      <div class="better__header-image"><img src="https://documents.buzzfeednews.com/_NewsDesign/2020_0205_Kazan/rabia-wagner-0862.jpg">
+        <div class="special__caption"><p>Dave Pope of Grinnell, Iowa eats the popular crab rangoon pizza at Fong&rsquo;s Pizza in Des Moines, Iowa on Saturday, January 18, 2020.</p><span class="subbuzz__attribution">KC McGinnis for BuzzFeed News</span></div></div>
+</header>
+<script>
+  {
+    function hideNavElements() {
+    document.querySelector('.newsblock-header').style = 'display: none;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: none;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: none;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+    document.querySelector('.news-article-header__title').style = 'display: none;';
+    document.querySelector('.news-article-header__dek').style = 'display: none;';
+  }
+    
+  function attachCustomHeader() {
+    const pageContentEl = document.querySelector('.page-content');
+    const mainGridEl = pageContentEl.querySelector('.grid-layout-wrapper');
+    const graphics = document.querySelector('.better__header');
+    const headerContainer = document.createElement('div');
+    pageContentEl.insertBefore(graphics, mainGridEl);
+    document.querySelector('.buzz-feature-image').style = 'display: none;';
+  }
+    function hideCustomEmbedContent() {
+      document.querySelector('.better__header').style = 'display: none;'; 
+    }
+    hideNavElements();
+    if (window.innerWidth > 600) {
+      attachCustomHeader();
+    } else {
+      hideCustomEmbedContent();
+      document.querySelector('.newsblock-header').style = 'display: block;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: block;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: block;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-breadcrumbs').style = 'display: none;';
+      document.querySelector('.news-article-header__title').style = 'display: block;';
+      document.querySelector('.news-article-header__dek').style = 'display: block;';
+      document.querySelector('.sticky-header.sticky').style = 'display: block;';
+    }
+  }
+</script>

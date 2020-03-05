@@ -1,0 +1,88 @@
+<style>
+.promo__wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #f1f0ec;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+    align-items: flex-start;
+}
+.promo__left {
+    box-sizing: border-box;
+    order: 2;
+    width: 66%;
+    font-family: Pensum, serif;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #000;
+    padding-right: 2%;
+}
+.promo__right {
+    order: 1;
+    width: 30%;
+    height: 180px;
+    object-fit: contain;
+    position: relative;
+}
+  .promo__right img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: contain;
+}
+.promo__slug {
+    font-family: Basier, sans-serif;
+    font-size: 1.4rem; 
+    font-weight: 700;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.promo__related {
+    font-size: 0.8rem;
+}
+ul.promo__related {
+    list-style-type: none;
+    line-height: 1.0rem;
+    margin: 0;
+    padding: 0;
+}
+li.promo__related {
+    margin-bottom: 8px;
+}
+a.promo__link {
+font-size: 1.0rem;
+line-height: 1.1rem;
+    color: #000;
+    text-decoration: underline #6dcff6;
+}
+a.promo__link:hover {
+    color: #444;
+    text-decoration: underline #346c81;
+}
+
+@media only screen and (max-width: 500px) {
+    .promo__left {
+        width: 100%;
+        padding-left: 2%;
+    }
+    .promo__right {
+        width: 100%;
+        height: 100%;
+      margin: 0;
+    }
+  .promo__right img {
+    position: static;
+    height: auto;
+  }
+}
+
+</style>
+<div class="promo__wrapper">
+    <div class="promo__right"><img src="https://documents.buzzfeed.com/_NewsDesign/2019_0927_impeachment/impeachment_branding.png"></div>
+<div class="promo__left"><div class="promo__slug">Impeaching Trump</div>
+    <ul class="promo__related"><li class="promo__related"><strong><a class="promo__link" href="https://www.buzzfeednews.com/article/christopherm51/kurt-volker-testimony-congress-ukraine-trump">The Former Special Envoy To Ukraine Told Congress That Trump&rsquo;s Biden Conspiracy &ldquo;Has No Credibility To Me&rdquo;</a></strong></li>
+    <li class="promo__related"><strong><a class="promo__link" href="https://www.buzzfeednews.com/article/benking/confused-by-the-impeachment-process-this-flowchart-should">Confused By The Impeachment Process? This Flowchart Should Help.</a></strong></li>
+    <li class="promo__related"><strong><a class="promo__link" href="https://www.buzzfeednews.com/article/benking/keep-track-of-all-the-people-involved-in-trumps-impeachment">This Trump Impeachment Diagram Will Help You Keep Track Of All The People Involved</a></strong></li></ul></div>
+</div>
