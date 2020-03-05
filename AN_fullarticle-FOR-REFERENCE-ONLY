@@ -1,0 +1,1000 @@
+{
+	"document": {
+		"version": "1.0",
+		"identifier": "5246127",
+		"title": "This Tattoo Artist Died In One Of The Most Powerful Storms In Human History. Now His Friends And Family Are Demanding Justice.",
+		"language": "en",
+		"layout": {
+			"columns": 14,
+			"gutter": 20,
+			"margin": 60,
+			"width": 1024
+		},
+		"componentLayouts": {
+			"breaking_post_label": {
+				"columnStart": 2,
+				"columnSpan": 12,
+				"margin": {
+					"top": 5,
+					"bottom": 10
+				}
+			},
+			"article_byline_user_avatar": {
+				"columnSpan": 1,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"article_byline_user_name": {
+				"columnSpan": 14,
+				"columnStart": 0
+			},
+			"article_byline_user_title": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10
+				}
+			},
+			"article_bylines_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"article_container": {
+				"columnSpan": 12,
+				"columnStart": 1,
+				"ignoreDocumentMargin": "both"
+			},
+			"article_header_description": {
+				"columnSpan": 12,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"article_header_image": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 8
+				}
+			},
+			"article_header_published_on": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"article_header_title": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 5,
+					"top": 15
+				}
+			},
+			"commerce_disclaimer": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"visit_main_site": {
+				"margin": {
+					"top": 15,
+					"bottom": 15
+				}
+			},
+			"related_content": {
+				"margin": {
+					"top": 15
+				}
+			},
+			"related_content_item": {
+				"contentInset": {
+					"top": true,
+					"bottom": true
+				}
+			},
+			"subbuzz_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_audio_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_audio_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_audio_content": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "none",
+				"margin": {
+					"bottom": 5
+				}
+			},
+			"subbuzz_audio_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_audio_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_breaking_update_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_breaking_update_posted_at": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_embed_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_embed_content": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_embed_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_embed_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_image_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_image_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_image_content": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "none",
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_image_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_image_description_2": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 5,
+					"top": 0
+				}
+			},
+			"subbuzz_image_group_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_image_group_content": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "none",
+				"margin": {
+					"bottom": 5
+				}
+			},
+			"subbuzz_image_group_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_image_group_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_image_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_instagram_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_instagram_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_instagram_content": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 5,
+					"top": 10
+				}
+			},
+			"subbuzz_instagram_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_instagram_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_link_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_link_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_link_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_link_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_pullquote_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 20,
+					"top": 20
+				}
+			},
+			"subbuzz_quote_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_quote_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_quote_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_quote_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_text_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_text_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_text_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_text_description_2": {
+				"columnSpan": 10,
+				"columnStart": 2,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_text_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_tweet_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_tweet_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_tweet_content": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 5,
+					"top": 10
+				}
+			},
+			"subbuzz_tweet_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_tweet_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			},
+			"subbuzz_video_attribution": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 2
+				}
+			},
+			"subbuzz_video_container_layout": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "both",
+				"margin": {
+					"bottom": 5,
+					"top": 5
+				}
+			},
+			"subbuzz_video_content": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"ignoreDocumentMargin": "none",
+				"margin": {
+					"bottom": 5
+				}
+			},
+			"subbuzz_video_description": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 15,
+					"top": 10
+				}
+			},
+			"subbuzz_video_header": {
+				"columnSpan": 14,
+				"columnStart": 0,
+				"margin": {
+					"bottom": 10,
+					"top": 10
+				}
+			}
+		},
+		"componentTextStyles": {
+			"body": {
+				"fontName": "PensumPro-Regular",
+				"fontSize": 20,
+				"lineHeight": 26,
+				"linkStyle": {
+					"textColor": "#0F65EF"
+				},
+				"textAlignment": "left",
+				"textColor": "#262626"
+			},
+			"body2": {
+				"fontName": "PensumPro-Regular",
+				"fontSize": 14,
+				"lineHeight": 16,
+				"linkStyle": {
+					"textColor": "#0F65EF"
+				},
+				"textAlignment": "left",
+				"textColor": "#262626"
+			},
+			"breaking-post-label": {
+				"fontName": "BasierSquare-Regular",
+				"fontSize": 18,
+				"lineHeight": 18,
+				"textAlignment": "center",
+				"textColor": "#EF3D31"
+			},
+			"byline-name": {
+				"fontName": "PensumPro-Bold",
+				"fontSize": 14,
+				"lineHeight": 22,
+				"textAlignment": "left",
+				"textColor": "#262626"
+			},
+			"byline-title": {
+				"fontName": "BasierSquare-Regular",
+				"fontSize": 14,
+				"lineHeight": 18,
+				"textAlignment": "left",
+				"textColor": "#7D7D7D"
+			},
+			"caption2": {
+				"fontName": "PensumPro-Bold",
+				"fontSize": 12,
+				"lineHeight": 12,
+				"linkStyle": {
+					"textColor": "#0F65EF"
+				},
+				"textAlignment": "left",
+				"textColor": "#262626"
+			},
+			"default": {
+				"fontName": "BasierSquare-Bold",
+				"fontSize": 20,
+				"textColor": "#262626",
+				"linkStyle": {
+					"textColor": "#0F65EF"
+				}
+			},
+			"dek": {
+				"fontName": "BasierSquare-Regular",
+				"fontSize": 20,
+				"lineHeight": 26,
+				"linkStyle": {
+					"textColor": "#0F65EF"
+				},
+				"textAlignment": "left",
+				"textColor": "#262626"
+			},
+			"heading1": {
+				"fontName": "BasierSquare-Bold",
+				"fontSize": 24,
+				"lineHeight": 30,
+				"linkStyle": {
+					"textColor": "#0F65EF"
+				},
+				"textAlignment": "left",
+				"textColor": "#262626"
+			},
+			"publish_date": {
+				"fontName": "BasierSquare-Regular",
+				"fontSize": 14,
+				"lineHeight": 16,
+				"textAlignment": "left",
+				"textColor": "#7D7D7D"
+			},
+			"pullquote": {
+				"fontName": "BasierSquare-Bold",
+				"fontSize": 40,
+				"lineHeight": 60,
+				"textAlignment": "left",
+				"textColor": "#262626"
+			},
+			"quote": {
+				"dropCapStyle": {
+					"numberOfCharacters": 1,
+					"numberOfLines": 2
+				},
+				"fontName": "BasierSquare-Regular",
+				"fontSize": 18,
+				"lineHeight": 26,
+				"textAlignment": "left",
+				"textColor": "#262626"
+			},
+			"title": {
+				"fontName": "BasierSquare-Bold",
+				"fontSize": 48,
+				"lineHeight": 55,
+				"textAlignment": "left",
+				"textColor": "#262626"
+			}
+		},
+		"componentStyles": {},
+		"textStyles": {},
+		"metadata": {
+			"datePublished": "2019-11-30T11:12:27-05:00",
+			"dateCreated": "2019-11-30T11:12:27-05:00",
+			"dateModified": "2019-12-01T09:28:20-05:00",
+			"authors": ["J. Lester Feder"],
+			"thumbnailURL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-12/1/14/campaign_images/04e28238340c/this-tattoo-artist-died-in-one-of-the-most-powerf-2-5871-1575210494-7_dblbig.jpg",
+			"canonicalURL": "https://www.buzzfeednews.com/article/lesterfeder/they-survived-a-storm-that-killed-thousands-now-they-want",
+			"excerpt": "A typhoon killed thousands of people in the Philippines. A group of survivors wants the law to start punishing fossil fuel companies that contribute the most to warming the planet.",
+			"keywords": ["World"]
+		},
+		"components": [{
+			"role": "photo",
+			"layout": "article_header_image",
+			"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/18/enhanced/27c7ba64cdc0/longform-original-1647-1575053402-17.jpg"
+		}, {
+			"role": "container",
+			"components": [{
+				"text": "This Tattoo Artist Died In One Of The Most Powerful Storms In Human History. Now His Friends And Family Are Demanding Justice.",
+				"format": "markdown",
+				"layout": "article_header_title",
+				"role": "title",
+				"textStyle": "title"
+			}, {
+				"text": "A typhoon killed thousands of people in the Philippines. A group of survivors wants the law to start punishing fossil fuel companies that contribute the most to warming the planet.",
+				"format": "markdown",
+				"layout": "article_header_description",
+				"role": "caption",
+				"textStyle": "dek"
+			}, {
+				"role": "caption",
+				"layout": "article_header_published_on",
+				"text": "Posted on November 30, 2019, at 11:12 a.m. ET",
+				"textStyle": "publish_date"
+			}, {
+				"role": "author",
+				"text": "J. Lester Feder",
+				"format": "markdown",
+				"layout": "article_byline_user_name",
+				"textStyle": "byline-name"
+			}, {
+				"role": "body",
+				"text": "BuzzFeed News Reporter",
+				"format": "markdown",
+				"layout": "article_byline_user_title",
+				"textStyle": "byline-title"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p>TACLOBAN, the Philippines \u2014 When the winds blow this strong, the rain stings like needles, scraps of wood cut through flesh like bullets, and corrugated metal sheets slice like knives.<br /></p><p>On that morning in November 2013, the wind churned the ocean into a mountain of water and pushed it onto the city. Survivors remember the sea crashing ashore in three massive black waves, so tall even the coconut trees were drowned. The water lifted five cargo ships huddled by the city\u2019s port into the air and sent them crashing on top of a slum on the opposite bank.</p><p>It was as if the sea was suddenly everywhere \u2014 even the rain tasted like salt.</p><p>Street artist and photographer AG Sa\u00f1o was asleep when the storm crashed into Tacloban, a small port city on the Philippines\u2019 Pacific coast. The winds woke him at 4 a.m., shaking the walls of his hotel so loudly that it sounded \u201clike a horse running on the roof.\u201d</p><p>Sa\u00f1o raced to the ground floor, taking shelter with around 50 other guests. The storm surge soon shattered the hotel\u2019s front doors. Water chased guests up to the first floor and kept rising.</p><p>When the storm finally passed and Sa\u00f1o could step outside, he saw two men pushing the corpses of a mother and daughter on a wooden cart through ankle-deep water. Then he met four fathers carrying the bodies of their children from the school where they\u2019d drowned. He found a doctor who\u2019d taken command of a dump truck. Sa\u00f1o volunteered to help him gather the dead, who were emerging from the receding waters by the hundreds.</p><p>Typhoon Haiyan was the <a rel=\"nofollow\" href=\"https://blogs.scientificamerican.com/observations/was-typhoon-haiyan-a-record-storm/\" target=\"_blank\">most powerful storm</a> to ever make landfall when it smashed into the Philippines on November 8, 2013, with wind speeds up to 235 miles per hour. The government said more than 6,000 people died, but the country\u2019s top forensics expert later <a rel=\"nofollow\" href=\"https://businessmirror.com.ph/2016/11/11/closure-remains-elusive-to-kin-of-missing-yolanda-victims/\" target=\"_blank\">said</a> she thought the real number was more like 18,000.</p><p>Sa\u00f1o spent four days helping to pile bodies into body bags to await identification or burial in mass graves. Then he decided he had to leave, because there was one body he could not face seeing.</p><p>He already knew his best friend in Tacloban \u2014 a tattoo artist called Agit Sustento \u2014 was dead, and Sa\u00f1o didn\u2019t want to be the one to find him. Sustento\u2019s corpse would be instantly recognizable from the tattoos that covered him from head to toe. Sustento, who originally studied to be an accountant, had just opened a new shop dedicated to reviving ancient traditions from the days when tattoos commemorated the victories of warriors in the remote northern mountains. Tattoos were not just fashion or art to Sustento, his friends and family said. They represented the connections between people, their identity, and the Earth.</p><p>Sa\u00f1o had come from Manila to document and photograph Sustento at work. Instead Sustento was washed away. So were his parents, his wife, and his 3-year-old son.</p><p>The only members of Sustento\u2019s immediate family to survive were his younger siblings, Mal and Joanna. During the storm, Joanna struggled to hold their mother above the churning waters, but she drowned in her arms.</p><p>Sa\u00f1o and Joanna decided to dedicate the years after the storm to winning justice for their loved ones.</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/0d38012e6d3b/sub-buzz-4438-1575057469-3.jpg?resize=625:415",
+					"caption": "The aftermath of Typhoon Haiyan."
+				}, {
+					"text": "<p>The aftermath of Typhoon Haiyan.</p>",
+					"role": "body",
+					"layout": "subbuzz_image_description_2",
+					"format": "html",
+					"textStyle": "body2"
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "AG Sa\u00f1o",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p>Typhoon Haiyan was not a natural disaster, Sa\u00f1o believed. Warming oceans cause storms to grow more powerful, and global warming is caused by greenhouse gas emissions. The Philippines had played little part in this \u2014 it\u2019s a poor country <a rel=\"nofollow\" href=\"https://www.wri.org/our-work/project/climatewatch/historical-emissions\" target=\"_blank\">estimated</a> to have contributed less than 1% of all greenhouse gasses to the atmosphere.</p><p>Sa\u00f1o came to see Tacloban\u2019s citizens as the victims of a crime, but no one was trying to hold to account the people he saw as responsible.</p><p>\u201cWhen people would die in, let\u2019s say, an apartment in New York City, investigators would find out who caused it, right? ... They find justice for that person,\u201d Sa\u00f1o said. \u201cBut how come we have [thousands of] dead people in Tacloban and nobody was asking whose fault it was?\u201d</p><p>This question would help revolutionize climate activism over the years that followed Typhoon Haiyan. World leaders had wasted decades failing to reach a collective agreement on climate action, and not everyone was equally to blame for global warming. Oil companies and other large polluters had grown rich while the world got hotter, pouring millions into lobbying efforts to keep people hooked on fossil fuels. Activists like Sa\u00f1o came to believe that this was a kind of mass destruction in slow motion. If they could start getting judges to agree, courts might be the lifeline needed to prevent the Earth from warming further.</p><p>To lay the groundwork for future lawsuits, Sa\u00f1o and a group of other citizens and NGOs are petitioning the Philippines\u2019 top human rights tribunal to declare fossil fuel giants like ExxonMobil and Shell responsible for violating the fundamental rights of the Filipino people by contributing to climate change. This coalition, led by the local chapter of Greenpeace, includes not just survivors of Typhoon Haiyan, but also people hurt by climate change in other ways \u2014 fishers whose stocks are disappearing from the ocean, and farmers whose crops are failing in changing weather.</p><p>They filed their petition in 2015 and will get an answer next month when the Philippines Commission on Human Rights is due to release the results of an investigation conducted over three years and three continents. It has chosen to release its findings during the global climate summit in Madrid, a sign it wants to send a message to the world.</p><p>The legal team knows its argument is a long shot \u2014 only a few tribunals anywhere in the world have considered whether human rights law applies to climate change, and no one has successfully sued a fossil fuel company for climate impacts.</p><p>We won\u2019t know exactly what\u2019s in the report until December, but the commissioner leading the investigation, Roberto Cadiz, suggested the commission intends to give the petitioners one of their key demands: a declaration that the major carbon emitting firms have \u201cnegatively impacted the human rights of the Filipino people.\u201d But, he said, the report would not weigh in on whether courts should hold corporations directly liable for climate damage. He said he had a number of concerns about people suing companies for the way they\u2019d been hurt by climate change. First, he thought there were too many steps in between carbon being emitted and something like an extreme storm to hold a company directly liable for damage. Second, since everyone feels the effects of climate change, what gives any individual or group a greater claim on climate damages than anyone else? And, finally, he didn\u2019t think it was fair to sue companies over specific climate damages when the whole world has relied on their products.</p><p>\u201cIt\u2019s not a black-and-white issue from the point of view of climate justice \u2026 Right now they\u2019re being sued, the carbon majors, but if they totally stop production, they\u2019re going to be sued!\u201d Cadiz said.</p><p>But even if the petitioners don\u2019t get everything they want, they believe it\u2019s an important step in changing the way jurists around the world think of climate change.</p><p>\u201cAgit\u2019s death was the responsibility of those corporations,\u201d Sa\u00f1o said. \u201cI know in my heart that it\u2019s the case.\u201d</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/8618c7fe460d/sub-buzz-4348-1575056504-1.jpg?resize=625:417",
+					"caption": "AG Sa\u00f1o"
+				}, {
+					"text": "<p>AG Sa\u00f1o</p>",
+					"role": "body",
+					"layout": "subbuzz_image_description_2",
+					"format": "html",
+					"textStyle": "body2"
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "Pau Villanueva for BuzzFeed News",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p><b>Litigation is one</b> tool climate activists haven\u2019t fully tested, and they hope the Philippines investigation could inspire people around the world to fight global warming in court.<br /></p><p>In recent years, lawyers and activists around the world have brought <a rel=\"nofollow\" href=\"http://climatecasechart.com/search-non-us/?fwp_per_page=100\" target=\"_blank\">hundreds of cases</a> in several countries in an unprecedented push to get courts to force action on climate change. The Philippines petition was among the earliest to be filed. The most successful strategy so far has been to sue governments for failing to protect their citizens from climate impacts, and top courts in a handful of countries have already ordered governments to implement climate plans on those grounds.</p><p>But it\u2019s an uphill battle. For one thing, the science connecting the dots from carbon emissions to an individual storm like Typhoon Haiyan is complicated and incomplete, though it\u2019s <a rel=\"nofollow\" href=\"https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018EF000973\" target=\"_blank\">getting better</a>. No court has yet concluded there\u2019s a direct enough connection between a fossil fuel company\u2019s emissions and the climate that would impose legal liability on the company for major catastrophes.</p><p>There\u2019s also the problem of location. Courts will typically only try a crime if it happens within their own country, but carbon emissions are everywhere. If someone is hurt by climate change in the Philippines, and they want to sue an oil company like Shell \u2014 which is based in the Netherlands, but drills oil and sells it in many other countries \u2014 where do they go to court? If they find a court, how do they ask a judge to punish a fossil fuel company for selling a product that remains legal, one that governments even subsidize because it\u2019s still considered essential?</p><p>Winning a case like that requires a legal revolution. There have been revolutions like this before, where arguments that were once unthinkable become obvious. The US Supreme Court outlawed racial segregation after upholding it for half a century; same-sex couples won the right to marry nearly 30 years after the Supreme Court ruled gay people could be arrested for having sex.</p><p>But these changes take years of work, in courts and in the culture. And for years, the most familiar story about climate change has been the one pushed by fossil fuel companies themselves once they were forced to acknowledge it was a reality: The burden for stopping climate change falls on individual consumers, who must drive less, fly less, and buy less. Everyone is to blame and so no one can be truly held accountable.</p><p>If judges are to take action on climate change, they must first believe it is a story of injustice.</p><p>That\u2019s why Greenpeace\u2019s lawyers decided to take this case to the Philippines Commission on Human Rights rather than directly to the courts. The commission is an independent agency under the constitution, with broader powers to investigate alleged abuses than courts have, but lacking a court\u2019s power to enforce its findings.</p><p>This obviously has a major downside: The commission can\u2019t force polluters to change their behavior or compensate climate victims. But these kinds of commissions can do a lot to change the thinking of judges when a related case comes before them.</p><p>The Philippines is a powerful place to challenge the climate change narrative. The country must cope with massive storms while more than half the population <a rel=\"nofollow\" href=\"https://data.worldbank.org/indicator/SI.POV.UMIC\" target=\"_blank\">earns</a> less than $5.50 per day. But, despite the efforts by a handful of local environmental activists, many people from Tacloban still don\u2019t believe that climate change is a story of wealthy corporations inflicting harm on the vulnerable. If they\u2019ve heard of climate change at all, residents will say they caused it themselves by burning too much trash or by throwing too much garbage into the ocean. Some priests in this deeply Catholic country even gave sermons saying Typhoon Haiyan was a form of divine punishment for human sins.</p><p>Challenging this idea is also hard because environmental advocacy is a deadly business in the Philippines. Shortly after he became president in 2016, Rodrigo Duterte gave a speech in which <a rel=\"nofollow\" href=\"https://www.rappler.com/nation/140122-duterte-international-agreements-carbon-emissions\" target=\"_blank\">he said</a> he wanted \u201cto kick\u201d an ambassador who asked about reducing carbon emissions. On Duterte\u2019s first full day in office, a leading anti-coal activist was <a rel=\"nofollow\" href=\"https://www.frontlinedefenders.org/en/case/case-history-gloria-capitan\" target=\"_blank\">assassinated</a>, and at least 30 other environmental activists <a rel=\"nofollow\" href=\"https://www.globalwitness.org/en/campaigns/environmental-activists/defending-philippines/\" target=\"_blank\">were killed in 2018</a>.</p><p>Both Duterte and the Typhoon Haiyan petitioners agree that the Philippines is a victim of richer nations. But for Duterte, that victimhood is not a chance to rally for climate accountability, but rather a reason to treat it as inevitable and continue business as usual.</p><p>The president sent the chief of his cabinet, Karlo Nograles, to a Typhoon Haiyan memorial ceremony in Tacloban earlier this month, where he boasted of a plan to build a sea wall to protect against storm surges \u2014 a \u201cGreat Wall of Leyte,\u201d he called it, because Tacloban sits in Leyte province. This sea wall is planned to be about 13 feet high \u2014 even though Haiyan\u2019s storm surge <a rel=\"nofollow\" href=\"https://center.noah.up.edu.ph/devastating-storm-surges-of-typhoon-yolanda/\" target=\"_blank\">reached</a> almost 20 feet in some places.</p><p>Nograles grew angry when asked in an interview with BuzzFeed News about plans in the Philippines to <a rel=\"nofollow\" href=\"https://www.eco-business.com/news/big-energy-firms-driving-coal-expansion-in-the-philippines/\" target=\"_blank\">expand coal power</a>, and whether the government could put more pressure on foreign fossil fuel companies.</p><p>\u201cYou\u2019re always playing, looking at us \u2014 what\u2019s the US doing?\u201d he said as he stormed off. \u201cYou guys do it in the States. You show us the way. You show that you can win.\u201d</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/8618c7fe460d/sub-buzz-4335-1575056651-19.jpg?resize=625:941",
+					"caption": "A survivor of Typhoon Haiyan."
+				}, {
+					"text": "<p>A survivor of Typhoon Haiyan.</p>",
+					"role": "body",
+					"layout": "subbuzz_image_description_2",
+					"format": "html",
+					"textStyle": "body2"
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "AG Sa\u00f1o",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p><b>Just as AG Sa\u00f1o</b> was gathering the bodies of the dead in Tacloban in 2013, by an extraordinary coincidence his brother Yeb was leading the Filipino delegation at an annual climate summit in Warsaw.<br /></p><p>Yeb shattered the meeting\u2019s diplomatic reserve when he burst into tears during a speech describing Typhoon Haiyan\u2019s destruction, demanded climate justice for developing countries, and announced he would go on a hunger strike.</p><p>His speech was watched more than <a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=7SSXLIZkM3E\" target=\"_blank\">1 million times</a> on YouTube, making him an instant climate hero. Diplomats had been fighting about a climate deal for more than 30 years, and yet the rate of greenhouse gases emissions was only <a rel=\"nofollow\" href=\"https://www.theguardian.com/environment/2014/sep/09/carbon-dioxide-emissions-greenhouse-gases\" target=\"_blank\">increasing</a>. Finally, here was a diplomat who expressed the urgency of the moment. Progressive groups in the West like Greenpeace, MoveOn.org, and 350.org, rallied around him \u2014 more than 600,000 people <a rel=\"nofollow\" href=\"https://secure.avaaz.org/en/petition/Stand_with_the_Philippines/\" target=\"_blank\">signed a petition</a> launched by the online advocacy group Avaaz backing a demand that the rich nations that had done the most to cause global warming pay poorer ones facing the highest costs.</p><p>The reality inside the hall was that Yeb\u2019s speech did little to melt the hearts of diplomats from richer nations. The US, Europe, and Australia refused to sign up for a fund that would pay poor nations reparations for damages they suffer from climate change. Negotiations grew so heated that delegates from 132 poorer nations <a rel=\"nofollow\" href=\"https://www.theguardian.com/global-development/2013/nov/20/climate-talks-walk-out-compensation-un-warsaw\" target=\"_blank\">walked out</a> of the talks.</p><p>Even Yeb\u2019s own government turned its back on him, <a rel=\"nofollow\" href=\"https://www.theguardian.com/environment/2014/dec/02/yeb-sano-vocal-critic-west-dropped-lima-climate-talks\" target=\"_blank\">dropping him</a> without explanation from the delegation to a climate summit the following year. (Some environmental activists <a rel=\"nofollow\" href=\"https://www.theguardian.com/environment/2014/dec/02/yeb-sano-vocal-critic-west-dropped-lima-climate-talks\" target=\"_blank\">speculated</a> this was due to pressure from wealthy nations.)</p><p>So he teamed up with his brother and some members of the Filipino Greenpeace chapter to spread the gospel of climate justice directly to the people. They were inspired by Mahatma Gandhi, who helped <a rel=\"nofollow\" href=\"https://www.history.com/topics/india/salt-march\" target=\"_blank\">galvanize mass resistance</a> to British rule in India in the 1930s with a 240-mile protest march. Sa\u00f1o and Yeb\u2019s march was 600 miles, from the Philippines\u2019s capital city of Manila to Tacloban.</p><p>The march took 40 days in fall 2014, winding across 10 provinces, three islands, and a mountain pass known as the \u201cchicken intestine.\u201d The core group numbered around a dozen, Sa\u00f1o remembered, but hundreds of locals joined them for some portions. Yeb would give lectures in towns along the way, and that\u2019s where Sa\u00f1o said he first really came to understand the notion of \u201cclimate justice.\u201d</p><p>The group was energized by a <a rel=\"nofollow\" href=\"http://climateaccountability.org/carbonmajors.html\" target=\"_blank\">groundbreaking study,</a> published a year earlier, that worked out what percentage of greenhouse gases could be traced to individual companies. The study found that just 90 companies were responsible for two-thirds of all climate pollution \u2014 mostly fossil fuel companies and a few cement manufacturers. This was the kind of evidence lawyers would need if they were ever going to try to go after these companies in court.</p><p>\u201cI was excited when I first heard about it, because I finally could point a finger at someone to blame for Agit\u2019s death,\u201d Sa\u00f1o said.</p><p>The seeds of the climate justice petition before the Commission on Human Rights took root in December, when Yeb learned Greenpeace leaders were looking for somewhere to test whether international human rights law could be used against major carbon emitters. They built a coalition to file the petition as encouraging signs came from other parts of the world \u2014 a Dutch court ruled in favor of citizens <a rel=\"nofollow\" href=\"https://www.urgenda.nl/en/themas/climate-case/\" target=\"_blank\">who sued</a> their government for failing to do enough on climate change, and a <a rel=\"nofollow\" href=\"https://www.buzzfeednews.com/article/zahrahirji/kids-climate-change-lawsuit-challenge\" target=\"_blank\">group of kids</a> in the US filed a similar suit.</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/27c7ba64cdc0/sub-buzz-1773-1575057357-1.jpg?resize=625:417",
+					"caption": "Yeb Sa\u00f1o (right) walks with fellow activists along a street in Manila."
+				}, {
+					"text": "<p>Yeb Sa\u00f1o (right) walks with fellow activists along a street in Manila.</p>",
+					"role": "body",
+					"layout": "subbuzz_image_description_2",
+					"format": "html",
+					"textStyle": "body2"
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "Noel Celis / Getty Images",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p>As yet another climate summit rolled around in 2015, Sa\u00f1o and his brother marched more than 1,000 miles from Vatican City to the meeting site in Paris to deliver a landmark plea for climate action from the Pope. This summit was supposed to be different \u2014 negotiators were finally close to a deal to cut carbon emissions.</p><p>Once in Paris, Sa\u00f1o and 50 volunteers spent four days painting a towering mural of Sustento on a wall facing the Canal Saint-Martin near the city center.</p><p>Sa\u00f1o\u2019s brush gave a new life to the tattoos that had meant so much to Sustento. Waves swirl down his arm and two geometric shields cover his chest like a pair of rising suns. Sustento\u2019s long hair flows down his back and rays of light shoot from his head, the words \u201cJustice for the voiceless\u201d painted across his throat.</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/0d38012e6d3b/sub-buzz-4422-1575056864-3.jpg?resize=625:417",
+					"caption": "Joanna Sustento"
+				}, {
+					"text": "<p>Joanna Sustento</p>",
+					"role": "body",
+					"layout": "subbuzz_image_description_2",
+					"format": "html",
+					"textStyle": "body2"
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "Pau Villanueva for BuzzFeed News",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p>The Paris mural took people in Tacloban by surprise. Joanna and Sa\u00f1o had actually never met, and she had no idea he thought of Agit as a symbol of climate change. She only learned of the mural when someone emailed her a photo of her brother\u2019s face painted like an ancient warrior on a wall on the other side of the world.</p><p>Joanna had never been an activist before the storm, had never felt someone from a place like Tacloban could change the world. But she was coming to realize there was power in telling the story of what happened to her city, a way to bring to life the horror of what climate change can mean.</p><p>\u201cFor so many years we\u2019ve been living with the myth that [climate change] is our fault, and the point is that nothing really gets done,\u201d she said. \u201cDon\u2019t you think it\u2019s a great injustice, only a [small] number of corporations have the control of the 7 billion people on the planet? When are you gonna get angry? When are you going to stand up for yourself?\u201d</p><p>Joanna now works for Greenpeace in the Philippines.</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/c18d72ce1dfa/sub-buzz-1671-1575056710-15.jpg?resize=625:417",
+					"caption": "A Shell oil depot in Leyte."
+				}, {
+					"text": "<p>A Shell oil depot in Leyte.</p>",
+					"role": "body",
+					"layout": "subbuzz_image_description_2",
+					"format": "html",
+					"textStyle": "body2"
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "Pau Villanueva for BuzzFeed News",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p><b>For a fleeting moment</b> when the Paris climate summit ended in 2015, some people hoped politicians could steer the world away from disaster.<br /></p><p>Leaders committed their countries to carbon reduction targets to keep global temperature increases \u201cwell below\u201d 2 degrees Celsius (3.6 degrees Fahrenheit). But they began turning their backs on the deal even before it could even take effect.</p><p>This gave a new urgency to efforts to win climate action in the courts. When the Commission on Human Rights finally agreed to start formal hearings in late 2017, it set itself up to be a kind of tribunal for the whole world.</p><p>The Filipino commissioners held hearings in cities across the globe throughout 2018, listening to testimony from people suffering from climate change in the Philippines, as well as the from the world\u2019s top scientists and environmental lawyers.</p><p>In New York, they learned about <a rel=\"nofollow\" href=\"https://www.buzzfeednews.com/article/zahrahirji/exxon-climate-fraud-trial-new-york\" target=\"_blank\">the state\u2019s investigation</a> against ExxonMobil for downplaying the threat of climate change to investors while internally warning drastic action would be needed. They heard about <a rel=\"nofollow\" href=\"https://www.nytimes.com/2019/10/22/us/supreme-court-climate-change.html\" target=\"_blank\">climate lawsuits</a> underway based on precedents from 1990s lawsuits against tobacco companies. They reviewed <a rel=\"nofollow\" href=\"https://insideclimatenews.org/content/Exxon-The-Road-Not-Taken\" target=\"_blank\">evidence</a> that some oil companies <a rel=\"nofollow\" href=\"https://thecorrespondent.com/6286/if-shell-knew-climate-change-was-dire-25-years-ago-why-still-business-as-usual-today/692773774-4d15b476\" target=\"_blank\">had lied</a> about climate science in a similar way \u2014 documents obtained from both <a rel=\"nofollow\" href=\"https://insideclimatenews.org/content/Exxon-The-Road-Not-Taken\" target=\"_blank\">Exxon</a> and <a rel=\"nofollow\" href=\"https://thecorrespondent.com/6286/if-shell-knew-climate-change-was-dire-25-years-ago-why-still-business-as-usual-today/692773774-4d15b476\" target=\"_blank\">Shell</a> revealed internal research on climate change was buried for years while their lobbying operations publicly questioned the validity of climate science.</p><p>The one group they did not hear from were the companies denounced in the climate justice petition. If companies responded to the complaint at all, they generally argued that the commission didn\u2019t have jurisdiction over environmental questions, or that a Filipino tribunal can\u2019t investigate foreign corporations.</p><p>Out of 10 fossil fuel companies named in the petition that BuzzFeed News reached out to, Shell was the only one to respond to a request for comment.</p><p>\u201cAddressing a challenge as big as climate change requires a truly collaborative, society-wide approach,\u201d spokesperson Anna Haslam wrote in an email. \u201cWe don\u2019t believe the courtroom is the right place to address global climate change.\u201d</p><p>But where <i>is</i> the right place? As the commission prepares to release its report next week, diplomatic solutions seem more hopeless than ever. No major economy is close to reaching its <a rel=\"nofollow\" href=\"https://climateactiontracker.org/countries/\" target=\"_blank\">carbon reduction targets</a>, and <a rel=\"nofollow\" href=\"https://www.buzzfeednews.com/article/zahrahirji/climate-crisis-un-report-2019\" target=\"_blank\">a new UN study</a> says the Earth is on track to warm twice as much as the Paris agreement allowed by the end of the century. Delegates to the summit in Madrid are preparing for yet another bitter fight on the question of compensation for climate damage, and a Category 4 typhoon is <a rel=\"nofollow\" href=\"https://www.rappler.com/nation/special-coverage/weather-alert/245951-typhoon-kammuri-pagasa-forecast-november-28-2019-11am\" target=\"_blank\">on a collision course</a> with Manila. Great forests from the Amazon to the Arctic are on fire, so now even the regions that once sucked the most carbon out of the air are pumping more into the atmosphere.</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/9e5faed8e545/sub-buzz-8390-1575056761-2.jpg?resize=625:417",
+					"caption": "Informal settlements have been rebuilt in the aftermath of the hurricane."
+				}, {
+					"text": "<p>Informal settlements have been rebuilt in the aftermath of the hurricane.</p>",
+					"role": "body",
+					"layout": "subbuzz_image_description_2",
+					"format": "html",
+					"textStyle": "body2"
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "Pau Villanueva for BuzzFeed News",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p><b>As the Philippines</b> Commission on Human Rights prepares to release its report, around 3,000 families in Tacloban still don\u2019t have permanent homes.<br /></p><p>Houses made of plywood, corrugated metal, and scraps of plastic have been rebuilt along the beaches, many in the exact same spots where they were shattered by Typhoon Haiyan. The government and NGOs have built new settlements on high ground far from the city center, but moving there makes little sense for families that fish to make ends meet. Besides, many of the new settlements don\u2019t have electricity, running water, schools, or jobs.</p><p>There are a handful of people from Tacloban campaigning for environmental causes, including Joanna. But many residents \u2014 including those hit hardest by Typhoon Haiyan \u2014 still consider it a disaster of their own making.</p><p>\u201cWhat you reap is what you sow \u2014 that is what I understand,\u201d said Jean Golong, who leads a neighborhood association in a resettlement village built by Habitat for Humanity, the American NGO.</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/0d38012e6d3b/sub-buzz-4443-1575056929-1.jpg?resize=625:417",
+					"caption": "Jean Golong"
+				}, {
+					"text": "<p>Jean Golong</p>",
+					"role": "body",
+					"layout": "subbuzz_image_description_2",
+					"format": "html",
+					"textStyle": "body2"
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "Pau Villanueva for BuzzFeed News",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p>Golong was asked to give testimony about the typhoon\u2019s impact to the commission, but told BuzzFeed News she wasn\u2019t mad at the fossil fuel companies. She even had Facebook friends who worked for Shell\u2019s foundation, which helped build a neighboring resettlement village. If the oil companies are punished for climate change, Golong said, \u201cwho will suffer? Gasoline is already so expensive.\u201d</p><p>Tacloban\u2019s mayor, Alfred Romualdez, said he sees little point in talking about climate change at home because people from Tacloban are powerless to stop it. And even some steps the city can take, local leaders worry, will just push more costs onto poor residents. Lawmakers are working to ban single-used plastic, but so many necessities of daily life \u2014 from soap to soy sauce \u2014 are sold in single-serve packets. Many Tacloban residents are so poor that they can\u2019t afford to buy enough for more than one day at a time.</p><p>Romualdez said he was vaguely aware of the commission\u2019s climate change investigation, but he\u2019s not going to get anyone\u2019s hopes up.</p><p>\u201cClimate change is going to happen,\u201d he said. \u201cWe expect the worst.\u201d</p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"role": "photo",
+					"layout": "subbuzz_image_content",
+					"URL": "https://img.buzzfeed.com/buzzfeed-static/static/2019-11/29/19/asset/8618c7fe460d/sub-buzz-4361-1575056986-1.jpg?resize=625:417",
+					"caption": ""
+				}, {
+					"role": "caption",
+					"layout": "subbuzz_image_attribution",
+					"format": "markdown",
+					"text": "Pau Villanueva for BuzzFeed News",
+					"textStyle": "caption2"
+				}],
+				"layout": "subbuzz_image_container_layout"
+			}, {
+				"role": "container",
+				"components": [{
+					"text": "<p><b>People from Tacloban</b> like Joanna are still hoping that what happened to their city can shock the world into action.</p><p>\u201cWe need to acknowledge the power in our stories,\u201d she said in a recent interview, \u201cstrive [to] turn that suffering into strength.\u201d</p><p>It has been six years since she lost nearly her entire family to the typhoon.</p><p>A couple of years ago, Joanna and her brother Mal decided to pay homage to Sustento\u2019s memory by traveling to a place where he found his inspiration. It is a remote village in the mountainous region at the northern end of the Philippines, one of the places where the country\u2019s indigenous Kalinga culture remains strong. Joanna went to get a tattoo from a <a rel=\"nofollow\" href=\"https://www.cnn.com/travel/article/philippines-oldest-tattoo-artist/index.html\" target=\"_blank\">legendary 100-year-old tattoo artist</a>, who learned her profession using ink made from charcoal and needles made from the thorns of a citrus tree. One of the first people Joanna met when she arrived in the village was someone who had known her brother. He was surprised to learn any of Sustento\u2019s family members had survived.</p><p>The tattoo artist designed something special for Joanna after hearing her story, a crescent of Vs across her breast bone with an arrow pointing down her sternum. It\u2019s a serpent eagle, the artist told her. It symbolizes that someone is watching over her. Joanna believes that means her whole family.</p><p>Sustento would always forge his own path, Joanna said, walking away from a professional career to revive a piece of a Filipino culture that was almost entirely wiped away by colonialism. And so she keeps fighting to save her hometown that was nearly washed away.</p><p>\u201cWe know what happened and how it affects our culture, our home, our mental state,\u201d she said. \u201cWe need to step up. We need to acknowledge the power in our stories.\u201d \u25cf</p><p><i>Rica Concepcion contributed reporting to this article.</i></p>",
+					"role": "body",
+					"layout": "subbuzz_text_description",
+					"format": "html",
+					"textStyle": "body"
+				}],
+				"layout": "subbuzz_text_container_layout"
+			}, {
+				"role": "caption",
+				"text": "[Visit BuzzFeedNews.com](https://www.buzzfeednews.com?bfsource=applenews)",
+				"format": "markdown",
+				"layout": "visit_main_site",
+				"textStyle": "body"
+			}],
+			"layout": "article_container"
+		}]
+	}
+}
