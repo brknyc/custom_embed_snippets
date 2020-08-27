@@ -1,0 +1,198 @@
+<link rel='stylesheet' href='https://use.typekit.net/efn0yeh.css'>
+<style>
+        
+.better__header {
+  width: 100vw;
+  top: 0;
+  margin: 0 -50vw 20px -50vw;
+    left: 50%;
+    right: 50%;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.better__header-titles {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.better__header-headline {
+  width: 100%;
+  font-family: Pensum, serif;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  position: sticky;
+}
+
+.better__header-headline p {
+  z-index: 5;
+  font-weight: 700;
+  text-shadow: 0 0 15px #000;
+  padding: 10%;
+}
+.bg__image {
+  object-position: center;
+  height: 100%;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+.bg__image img {
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
+}
+.bg__image-annotation {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  text-align: right;
+  font-family: Basier Square, sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.better__header-hed {
+    font-family: refrigerator-deluxe, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 7rem;
+    line-height: 5.5rem;
+    text-transform: uppercase;
+    color: #fff000;
+    text-align: center;
+    padding: 0 10%;
+}
+.better__header-dek {
+    font-family: Basier, sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    text-align: center;
+    text-shadow: 0 0 15px #000;
+    padding: 0 10%
+}
+.bfn-logo {
+  width: 14rem;
+  padding-top: 20px;
+  z-index: 3;
+  position: relative;
+  margin: auto;
+}
+.bfn-logo img {
+  width: 14rem;
+}
+
+.story {
+  opacity: 0;
+}
+
+.story.inviewport,
+.custom-selector.inviewport {
+  transition: opacity 0.25s ease-in-out;
+}
+
+.story.active,
+.custom-selector.active {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+.story.active img {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+#mod-subbuzz-image-4, #mod-subbuzz-image-7 {
+    display: none;
+}
+.subbuzz__description {
+    color: #222;
+    margin: .25rem 0;
+    font-family: Pensum, serif;
+    font-size: .875rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #g-sat_annotation-box, #g-dabancheng_central-park-box {
+        display: none;
+    }
+    #mod-subbuzz-image-4, #mod-subbuzz-image-7 {
+    display: block;
+    }
+}
+</style>
+<header class='better__header'>
+    <div class='bfn-logo'><a href='/'><img alt='BuzzFeed News Logo' src='https://documents.buzzfeed.com/_NewsDesign/BFNlogo/BFN_logo_2C-W.png'></a></div>
+    <div class='better__header-titles stories'>
+      <div class='better__header-headline story'>
+        <div class='bg__image'><div class='bg__image-annotation'>March 26, 2019</div><img src='https://documents.buzzfeednews.com/_NewsDesign/tech/2020_08XX_Xinjiang/shufu1.jpg'></div></div>
+      <div class='better__header-headline story'>
+        <div class='bg__image'><div class='bg__image-annotation'>August 25, 2019</div><img src='https://documents.buzzfeednews.com/_NewsDesign/tech/2020_08XX_Xinjiang/shufu4.jpg'></div>
+        <p>China rounded up so many Muslims in Xinjiang that there wasn’t enough space to hold them.</p></div>
+      <div class='better__header-headline story'>
+        <div class='bg__image'><div class='bg__image-annotation'>October 7, 2019</div><img src='https://documents.buzzfeednews.com/_NewsDesign/tech/2020_08XX_Xinjiang/shufu5.jpg'></div>
+        <p>Then the government started building.</p></div>
+      <div class='better__header-headline story'>
+        <div class='bg__image'><div class='bg__image-annotation'>January 29, 2020</div><img src='https://documents.buzzfeednews.com/_NewsDesign/tech/2020_08XX_Xinjiang/shufu7.jpg'></div>
+        <p><span style='color: #fff000;'>This massive new compound in the county of Shufu</span> is capable of housing ten thousand people. There are many others.</p></div>
+      <div class='better__header-headline story'>
+        <div class='bg__image'><div class='bg__image-annotation'>April 26, 2020</div><img src='https://documents.buzzfeednews.com/_NewsDesign/tech/2020_08XX_Xinjiang/shufu10.jpg'></div>
+        <div class='better__header-hed'>Built To Last</div><div class='better__header-dek'>A BuzzFeed News investigation based on thousands of satellite images reveals a vast, growing infrastructure for long-term detention and incarceration.</div></div>
+    </div>
+</header>
+  <script src='https://documents.buzzfeednews.com/_NewsDesign/ScrollStory/jquery.min.js'></script>
+  <script src='https://documents.buzzfeednews.com/_NewsDesign/ScrollStory/jquery.scrollstory.js'></script>
+  <script>
+        (function($) {
+        // make existing elements 100% of window height
+        $('.story').css({'height': $(window).height() * 1});
+
+        $('.stories').scrollStory({
+            debug: false,
+            triggerOffset: '50%'
+        });
+    })(jQuery);
+    </script>
+    <script>
+  {
+    function hideNavElements() {
+    document.querySelector('.newsblock-header').style = 'display: none;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: none;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: none;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+    document.querySelector('.news-article-header__title').style = 'display: none;';
+    document.querySelector('.news-article-header__dek').style = 'display: none;';
+  }
+    
+  function attachCustomHeader() {
+    const pageContentEl = document.querySelector('.page-content');
+    const mainGridEl = pageContentEl.querySelector('.grid-layout-wrapper');
+    const graphics = document.querySelector('.better__header');
+    const headerContainer = document.createElement('div');
+    pageContentEl.insertBefore(graphics, mainGridEl);
+    document.querySelector('.buzz-feature-image').style = 'display: none;';
+  }
+    function hideCustomEmbedContent() {
+      document.querySelector('.better__header').style = 'display: none;'; 
+    }
+    hideNavElements();
+    if (window.innerWidth > 200) {
+      attachCustomHeader();
+    } else {
+      hideCustomEmbedContent();
+      document.querySelector('.newsblock-header').style = 'display: block;';
+    document.querySelector('[data-module="top-bar-manager"]').style = 'display: block;';
+    document.querySelector('[data-module="newsblock-breaking-bar"]').style = 'display: block;';
+    document.querySelector('[data-module="trending-tags-bar"]').style = 'display: none;';
+      document.querySelector('.news-article-header__title').style = 'display: block;';
+      document.querySelector('.news-article-header__dek').style = 'display: block;';
+      document.querySelector('.sticky-header.sticky').style = 'display: block;';
+    }
+  }
+</script>
