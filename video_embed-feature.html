@@ -1,0 +1,61 @@
+<style>
+        
+.better__header {
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin: -50vw;
+  position: relative;
+  clear: both;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.vid__container video {
+width: 100%;
+height: auto;
+position: relative;
+}
+
+</style>
+<div class='better__header'>
+  <div class='vid__container'><video autoplay muted loop playsinline='true'> <source src='https://documents.buzzfeednews.com/_NewsDesign/health/2022_0615_Ticks/Tick-Repel-Products_13_1.mp4' type='video/mp4'></video></div>
+    <div class='subbuzz__attribution' style='width: 100%; text-align: left; display: block; margin-top: 5px; margin-bottom: 5px; margin-right: 10px; z-index: 10;'>Maddie Abuyuan / BuzzFeed News</div>
+</div>
+
+
+<!-- AMP FALLBACK -->
+
+<script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+
+<amp-video width="720" height="405" src="https://documents.buzzfeednews.com/_NewsDesign/health/2022_0615_Ticks/Tick-Repel-Products_13_1.mp4" poster="https://documents.buzzfeednews.com/_NewsDesign/health/2022_0615_Ticks/Tick-Repel-Products_13_1.PNG" layout="responsive" autoplay>
+  <div fallback>
+    <p>Your browser doesn't support HTML5 video.</p>
+  </div>
+</amp-video>
+<div class='subbuzz__attribution' style='width: 100%; text-align: left; display: block; margin-top: 5px; margin-bottom: 5px; margin-right: 10px; z-index: 10;'>Maddie Abuyuan / BuzzFeed News</div>
+
+<!-- AN FALLBACK -->
+
+{
+  "components": [
+    {
+      "role": "video",
+      "URL": "https://documents.buzzfeednews.com/_NewsDesign/health/2022_0615_Ticks/Tick-Repel-Products_13_1.mp4"
+    }, 
+    {
+      "text": "CAPTION GOES HERE",
+        "role": "body",
+      "layout": "subbuzz_image_description_2",
+      "format": "html",
+      "textStyle": "body2"
+    }, 
+    {
+      "role": "caption",
+      "layout": "subbuzz_image_attribution",
+      "format": "markdown",
+      "text": "Maddie Abuyuan / BuzzFeed News",
+      "textStyle": "caption2"
+    }
+  ]
+}
